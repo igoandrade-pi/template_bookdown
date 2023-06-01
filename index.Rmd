@@ -3,7 +3,15 @@ title: "YOUR TITLE HERE"
 author: "YOUR NAME HERE"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
+#documentclass: memoir
+geometry: "left=3cm,right=3cm,top=2cm,bottom=2cm"
+output:
+  bookdown::pdf_book:
+    includes:
+      in_header: preamble.tex
 ---
 
-# Down the rabbit-hole
+\newpage
+# Informações preliminares {-}
+
 

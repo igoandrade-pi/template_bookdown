@@ -42,7 +42,7 @@ If you need help getting git/GitHub to work with RStudio see: [Happy Git and Git
 
 - [ ] 1. Install **bookdown** with `install.packages("bookdown")`. If you already have it, update to the most recent version.
 
-- [ ] 2. Render locally with `bookdown::render_book("index.Rmd")` or clicking the *Build book* button which should appear in the Build tab (in the same pane as Environment, History, Connections, ...).
+- [ ] 2. Render locally with `bookdown::render_book("index.Rmd", c("bookdown::pdf_book", "bookdown::gitbook"))` or clicking the *Build book* button which should appear in the Build tab (in the same pane as Environment, History, Connections, ...).
 
 - [ ] 3. Use `browseURL("docs/index.html")` to view your book locally (or just open `index.html` in a browser).
 
